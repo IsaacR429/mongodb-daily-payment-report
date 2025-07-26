@@ -4,7 +4,7 @@
 
 This Python project automates the generation of a daily PDF report summarizing payment statuses from a MongoDB database. It was developed to streamline client reporting at a FinTech company.
 
-## 📌 Objective
+##  Objective
 
 Automatically extract and visualize daily payment data, including:
 -  Successful payments
@@ -13,7 +13,7 @@ Automatically extract and visualize daily payment data, including:
 
 The script creates a visually styled PDF report with pie charts and key counts.
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Python**
 - **pymongo** – MongoDB querying
@@ -21,7 +21,7 @@ The script creates a visually styled PDF report with pie charts and key counts.
 - **fpdf** or **reportlab** – PDF formatting
 - **yaml** – For DB config (optional)
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Connects to MongoDB via URI
 2. Queries payment data for a given date
